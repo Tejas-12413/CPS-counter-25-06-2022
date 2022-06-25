@@ -43,10 +43,10 @@ function draw() {
   }
   background(200);
   textSize(100);
-  text('TOTAL CLICKS : '+cl,width/4,height/3);
-  text('CPS : '+cps,width/4,height/2.3);
-  text('HIGHEST CPS : '+h,width/4,height/1.9);
-  text('AVERAGE CPS : '+round(b),width/4,height/1.6);
+  text('TOTAL CLICKS : '+cl,width/4,height/3.2);
+  text('CPS : '+cps,width/4,height/2.5);
+  text('HIGHEST CPS : '+h,width/4,height/2.1);
+  text('AVERAGE CPS : '+round(b),width/4,height/1.8);
 
 	ar.splice(0,1);
 	ar.push(cps*25);
